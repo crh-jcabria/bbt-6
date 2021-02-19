@@ -1089,7 +1089,7 @@ header > .menu_btn {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.05em;
-  margin-top:1.5em; auto;
+  margin-top:1.5em;
   padding-bottom: 3rem;
 }
 
@@ -1118,7 +1118,7 @@ header > .menu_btn {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.05em;
-  margin-top:3rem; auto;
+  margin-top:3rem;
   padding-bottom: 2rem;
 }
 
@@ -1129,7 +1129,7 @@ header > .menu_btn {
   padding-bottom: 1rem;
   padding-left: 9%;
   padding-right: 9%;
-  width: 90%
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -1138,7 +1138,7 @@ header > .menu_btn {
   color:#444444;
 }
 #content #s09 .inner .description img{
-  align:center;
+  text-align:center;
   width:690px;
   height:150px;
   max-width:85%;
@@ -2674,7 +2674,7 @@ pcはここから
   }
   #content #s11 .inner {
     padding-top: 2.428664rem;
-    paddnig-bottom: 6.428664rem;
+    padding-bottom: 6.428664rem;
   }
   #content #s11 .inner > .label {
     top: -1.5rem;
@@ -3187,3 +3187,38 @@ pcはここから
     font-size: 1.33333rem;
   }
 }
+
+
+/* Additional 021821 */
+.freetrial-wrapper strong {
+  font-weight: bold;
+}
+
+.freetrial-wrapper small {
+  font-size: 1.3rem;
+}
+
+#K3_headline.description p.freetrial-title {
+  font-size: 2rem!important; 
+  text-align: center; 
+  padding-bottom: 1em;
+}
+
+.freetrial-wrapper img {
+  width: 800px; 
+  max-width: 90%; 
+  height: auto;
+}
+
+.text-btn {
+  margin: 10px auto; 
+  font-size: 1.4rem;
+}
+
+.text-btn2 {
+  margin: 20px auto 10px auto; 
+  font-size: 1.4rem;
+}
+
+
+
