@@ -3220,5 +3220,8 @@ pcはここから
   font-size: 1.4rem;
 }
 
-
-
+@media print, screen and (min-width: 961px) {
+  #content #s02 .inner ul {
+    width: 60rem;
+  }
+}
