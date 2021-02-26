@@ -3220,8 +3220,17 @@ pcはここから
   font-size: 1.4rem;
 }
 
+.footerBtn {
+  padding-top: 4.8rem;
+}
+
 @media print, screen and (min-width: 961px) {
   #content #s02 .inner ul {
     width: 60rem;
+  
+  }
+  footer #inquiryBlock .btnarea ul li:first-child {
+      margin-right: 0;
   }
 }
+
