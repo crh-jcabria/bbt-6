@@ -3225,7 +3225,6 @@ pcはここから
 }
 
 #content .sec10 {
-  /* margin-bottom: 86px; */
   padding-bottom: 16px;
   background: url(../img/bg20.jpg) no-repeat center center / cover;
 }
@@ -3335,11 +3334,6 @@ pcはここから
   margin: 0 auto 22px;
 }
 
-/* a, a:link {
-  color: #333;
-  text-decoration: none;
-} */
-
 #content .sec10 .note {
   text-align: center;
   font-size: 1.2rem;
@@ -3366,10 +3360,6 @@ html {
 }
 
 @media (min-width: 1023px) and (max-width: 1025px) {
-  /* #content .sec10 {
-    width: 1200px;
-  } */
-
   #content .sec10 > .content {
     width: auto;
   }
@@ -3424,7 +3414,6 @@ html {
 
 @media (max-width: 896px) {
   #content .sec10 {
-      /* margin-bottom: 40px; */
       padding-bottom: 20px;
       background-image: url(../img/sp_bg20.jpg);
   }
