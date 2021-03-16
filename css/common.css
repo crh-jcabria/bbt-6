@@ -3277,7 +3277,8 @@ pcはここから
 }
 
 .flexB {
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
 }
@@ -3340,9 +3341,9 @@ pcはここから
   font-weight: 500;
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 
 
@@ -3357,9 +3358,18 @@ html {
   footer #inquiryBlock .btnarea ul li:first-child {
       margin-right: 0;
   }
+
+  #content #s11 .inner .secInner.s11-02 .lead .txt {
+    width: 90%;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
 }
 
-@media (min-width: 1023px) and (max-width: 1025px) {
+/* @media (min-width: 1023px) and (max-width: 1025px) { */
+@media (min-width: 769px) and (max-width: 1439px) {
   #content .sec10 > .content {
     width: auto;
   }
