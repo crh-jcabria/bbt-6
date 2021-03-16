@@ -3229,7 +3229,7 @@ pcはここから
   background: url(../img/bg20.jpg) no-repeat center center / cover;
 }
 
-#content .sec10 > .content {
+#content .sec10 > .contents {
   margin: 0 auto;
   width: 1200px;
 }
@@ -3370,7 +3370,7 @@ pcはここから
 
 /* @media (min-width: 1023px) and (max-width: 1025px) { */
 @media (min-width: 769px) and (max-width: 1439px) {
-  #content .sec10 > .content {
+  #content .sec10 > .contents {
     width: auto;
   }
 
@@ -3428,7 +3428,7 @@ pcはここから
       background-image: url(../img/sp_bg20.jpg);
   }
 
-  #content .sec10 > .content {
+  #content .sec10 > .contents {
       margin: 0;
       width: auto !important;
   }
